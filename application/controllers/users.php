@@ -1,7 +1,7 @@
 <?php
 class Users extends MY_Controller{
 
-		public function fun()
+		public function index()
 	{
 		$this->load->view('users/newlogin');
 	}
