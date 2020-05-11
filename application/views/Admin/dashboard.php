@@ -21,8 +21,8 @@
 				<td><a href="#" class="btn btn-primary">Edit</a></td>
 				<td><a href="#" class="btn btn-danger">Delete</a></td>
 			</tr>
-			<?php } ?>
-				<?php else { ?>
+		
+		
 				<tr>
 					<td colspan="3">no data available</td>
 				</tr>

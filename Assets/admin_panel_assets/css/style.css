@@ -142,7 +142,7 @@ ul.sidebar-menu li ul.sub li a:hover,ul.sidebar-menu li ul.sub li.active a {
     -ms-transition:all 0.3s ease;
     transition:all 0.3s ease;
     display:block;
-    background:rgba(40, 40, 46, 0.28);
+    background:rgba(5, 5, 5, 0.28);
 }
 ul.sidebar-menu li {
     border-bottom:1px solid rgba(255,255,255,0.05);
@@ -171,7 +171,7 @@ ul.sidebar-menu li a {
 }
 ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
     background: rgba(40, 40, 46, 0.28);
-    color: #fff;
+    color: rgb(0, 0, 0);
     display: block;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;

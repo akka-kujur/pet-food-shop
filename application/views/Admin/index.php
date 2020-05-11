@@ -39,7 +39,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--logo start-->
 <div class="brand">
     <a href="index.html" class="logo">
-        VISITORS
+     Admin Panel
     </a>
     <div class="sidebar-toggle-box">
         <div class="fa fa-bars"></div>
@@ -53,11 +53,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <li class="dropdown">
             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                 <i class="fa fa-tasks"></i>
-                <span class="badge bg-success">8</span>
+                <span class="badge bg-success"></span>
             </a>
             <ul class="dropdown-menu extended tasks-bar">
                 <li>
-                    <p class="">You have 8 pending tasks</p>
+                    <!-- <p class="">You have 8 pending tasks</p> -->
                 </li>
                 <li>
                     <a href="#">
@@ -77,7 +77,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="task-info clearfix">
                             <div class="desc pull-left">
                                 <h5>Product Delivery</h5>
-                                <p>45% , Deadline  12 June’13</p>
+                                <!-- <p>45% , Deadline  12 June’13</p> -->
                             </div>
                                     <span class="notification-pie-chart pull-right" data-percent="78">
                             <span class="percent"></span>
@@ -90,7 +90,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="task-info clearfix">
                             <div class="desc pull-left">
                                 <h5>Payment collection</h5>
-                                <p>87% , Deadline  12 June’13</p>
+                                <!-- <p>87% , Deadline  12 June’13</p> -->
                             </div>
                                     <span class="notification-pie-chart pull-right" data-percent="60">
                             <span class="percent"></span>
@@ -103,7 +103,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="task-info clearfix">
                             <div class="desc pull-left">
                                 <h5>Target Sell</h5>
-                                <p>33% , Deadline  12 June’13</p>
+                                <!-- <p>33% , Deadline  12 June’13</p> -->
                             </div>
                                     <span class="notification-pie-chart pull-right" data-percent="90">
                             <span class="percent"></span>
@@ -126,10 +126,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </a>
             <ul class="dropdown-menu extended inbox">
                 <li>
-                    <p class="red">You have 4 Mails</p>
+                    <!-- <p class="red">You have 4 Mails</p> -->
                 </li>
                 <li>
-                    <a href="#">
+                    <!-- <a href="#">
                         <span class="photo"><img alt="avatar" src="images/3.png"></span>
                                 <span class="subject">
                                 <span class="from">Jonathan Smith</span>
@@ -139,16 +139,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     Hello, this is an example msg.
                                 </span>
                     </a>
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                     <a href="#">
                         <span class="photo"><img alt="avatar" src="images/1.png"></span>
                                 <span class="subject">
-                                <span class="from">Jane Doe</span>
+                                <span class="from">Admin</span>
                                 <span class="time">2 min ago</span>
                                 </span>
                                 <span class="message">
-                                    Nice admin template
+                                   
                                 </span>
                     </a>
                 </li>
@@ -180,10 +180,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <a href="#">See all messages</a>
                 </li>
             </ul>
-        </li>
+        </li> -->
         <!-- inbox dropdown end -->
         <!-- notification dropdown start-->
-        <li id="header_notification_bar" class="dropdown">
+        <!-- <li id="header_notification_bar" class="dropdown">
             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
 
                 <i class="fa fa-bell-o"></i>
@@ -219,7 +219,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </li>
 
             </ul>
-        </li>
+        </li> -->
         <!-- notification dropdown end -->
     </ul>
     <!--  notification end -->
@@ -234,7 +234,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <li class="dropdown">
             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                 <img alt="" src="images/2.png">
-                <span class="username">John Doe</span>
+                <span class="username">Admin</span>
                 <b class="caret"></b>
             </a>
             <ul class="dropdown-menu extended logout">
@@ -265,86 +265,86 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 
                 <li class="sub-menu">
                     <a href="javascript:;">
-                        <i class="fa fa-book"></i>
-                        <span>UI Elements</span>
+                        <!-- <i class="fa fa-book"></i> -->
+                        <span>User List</span>
                     </a>
-                    <ul class="sub">
+                    <!-- <ul class="sub">
 						<li><a href="typography.html">Typography</a></li>
 						<li><a href="glyphicon.html">glyphicon</a></li>
                         <li><a href="grids.html">Grids</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li>
-                    <a href="fontawesome.html">
-                        <i class="fa fa-bullhorn"></i>
-                        <span>Font awesome </span>
+                    <a href="product.html">
+                        <!-- <i class="fa fa-bullhorn"></i> -->
+                        <span>Product List</span>
                     </a>
                 </li>
                 <li class="sub-menu">
                     <a href="javascript:;">
-                        <i class="fa fa-th"></i>
-                        <span>Data Tables</span>
+                        <!-- <i class="fa fa-th"></i> -->
+                        <span>Food List</span>
                     </a>
-                    <ul class="sub">
+                    <!-- <ul class="sub">
                         <li><a href="basic_table.html">Basic Table</a></li>
                         <li><a href="responsive_table.html">Responsive Table</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li class="sub-menu">
                     <a href="javascript:;">
-                        <i class="fa fa-tasks"></i>
-                        <span>Form Components</span>
+                        <!-- <i class="fa fa-tasks"></i> -->
+                        <span>Accessories</span>
                     </a>
-                    <ul class="sub">
+                    <!-- <ul class="sub">
                         <li><a href="form_component.html">Form Elements</a></li>
                         <li><a href="form_validation.html">Form Validation</a></li>
 						<li><a href="dropzone.html">Dropzone</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li class="sub-menu">
                     <a href="javascript:;">
-                        <i class="fa fa-envelope"></i>
-                        <span>Mail </span>
+                        <!-- <i class="fa fa-envelope"></i> -->
+                        <span>Madicine </span>
                     </a>
-                    <ul class="sub">
+                    <!-- <ul class="sub">
                         <li><a href="mail.html">Inbox</a></li>
                         <li><a href="mail_compose.html">Compose Mail</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li class="sub-menu">
                     <a href="javascript:;">
-                        <i class=" fa fa-bar-chart-o"></i>
-                        <span>Charts</span>
+                        <!-- <i class=" fa fa-bar-chart-o"></i> -->
+                        <span>Animal Breed</span>
                     </a>
-                    <ul class="sub">
+                    <!-- <ul class="sub">
                         <li><a href="chartjs.html">Chart js</a></li>
                         <li><a href="flot_chart.html">Flot Charts</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li class="sub-menu">
                     <a href="javascript:;">
-                        <i class=" fa fa-bar-chart-o"></i>
-                        <span>Maps</span>
+                        <!-- <i class=" fa fa-bar-chart-o"></i> -->
+                        <span>Doctor</span>
                     </a>
-                    <ul class="sub">
+                    <!-- <ul class="sub">
                         <li><a href="google_map.html">Google Map</a></li>
                         <li><a href="vector_map.html">Vector Map</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li class="sub-menu">
                     <a href="javascript:;">
-                        <i class="fa fa-glass"></i>
-                        <span>Extra</span>
+                        <!-- <i class="fa fa-glass"></i> -->
+                        <span>Transaction</span>
                     </a>
-                    <ul class="sub">
+                    <!-- <ul class="sub">
                         <li><a href="gallery.html">Gallery</a></li>
 						<li><a href="404.html">404 Error</a></li>
                         <li><a href="registration.html">Registration</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li>
                     <a href="login.html">
-                        <i class="fa fa-user"></i>
+                        <!-- <i class="fa fa-user"></i> -->
                         <span>Login Page</span>
                     </a>
                 </li>
@@ -356,7 +356,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--main content start-->
 <section id="main-content">
 	<section class="wrapper">
-		<!-- //market-->
+	
 		<div class="market-updates">
 			<div class="col-md-3 market-update-gd">
 				<div class="market-update-block clr-block-2">
@@ -366,7 +366,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					 <div class="col-md-8 market-update-left">
 					 <h4>Visitors</h4>
 					<h3>0</h3>
-					<p>Other hand, we denounce</p>
+					<!-- <p>Other hand, we denounce</p> -->
 				  </div>
 				  <div class="clearfix"> </div>
 				</div>
@@ -379,7 +379,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="col-md-8 market-update-left">
 					<h4>Users</h4>
 						<h3>0</h3>
-						<p>Other hand, we denounce</p>
+						<!-- <p>Other hand, we denounce</p> -->
 					</div>
 				  <div class="clearfix"> </div>
 				</div>
@@ -392,7 +392,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="col-md-8 market-update-left">
 						<h4>Sales</h4>
 						<h3>0</h3>
-						<p>Other hand, we denounce</p>
+						<!-- <p>Other hand, we denounce</p> -->
 					</div>
 				  <div class="clearfix"> </div>
 				</div>
@@ -405,7 +405,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="col-md-8 market-update-left">
 						<h4>Orders</h4>
 						<h3>0</h3>
-						<p>Other hand, we denounce</p>
+						<!-- <p>Other hand, we denounce</p> -->
 					</div>
 				  <div class="clearfix"> </div>
 				</div>
@@ -413,11 +413,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		   <div class="clearfix"> </div>
 		</div>	
 		<!-- //market-->
-		<div class="row">
+		<!-- <div class="row">
 			<div class="panel-body">
 				<div class="col-md-12 w3ls-graph">
-					<!--agileinfo-grap-->
-						<div class="agileinfo-grap">
+					agileinfo-grap-->
+						<!-- <div class="agileinfo-grap">
 							<div class="agileits-box">
 								<header class="agileits-box-header clearfix">
 									<h3>Visitor Statistics</h3>
@@ -430,24 +430,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<div id="hero-area"></div>
 								</div>
 							</div>
-						</div>
+						</div> --> 
 	<!--//agileinfo-grap-->
-
+<!-- 
 				</div>
 			</div>
 		</div>
-		<div class="agil-info-calendar">
+		<div class="agil-info-calendar"> -->
 		<!-- calendar -->
-		<div class="col-md-6 agile-calendar">
+		<!-- <div class="col-md-6 agile-calendar">
 			<div class="calendar-widget">
                 <div class="panel-heading ui-sortable-handle">
 					<span class="panel-icon">
                       <i class="fa fa-calendar-o"></i>
                     </span>
                     <span class="panel-title"> Calendar Widget</span>
-                </div>
+                </div> -->
 				<!-- grids -->
-					<div class="agile-calendar-grid">
+					<!-- <div class="agile-calendar-grid">
 						<div class="page">
 							
 							<div class="w3l-calendar-left">
@@ -461,13 +461,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- //calendar -->
-		<div class="col-md-6 w3agile-notifications">
-			<div class="notifications">
+		<!-- <div class="col-md-6 w3agile-notifications">
+			<div class="notifications"> -->
 				<!--notification start-->
 				
-					<header class="panel-heading">
+					<!-- <header class="panel-heading">
 						Notification 
 					</header>
 					<div class="notify-w3ls">
@@ -534,21 +534,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						
 					</div>
 				
-				<!--notification end-->
-				</div>
+				<--notification end-->
+				<!-- </div>
 			</div>
 			<div class="clearfix"> </div>
-		</div>
+		</div> -->
 			<!-- tasks -->
-			<div class="agile-last-grids">
+			<!-- <div class="agile-last-grids">
 				<div class="col-md-4 agile-last-left">
 					<div class="agile-last-grid">
 						<div class="area-grids-heading">
 							<h3>Monthly</h3>
 						</div>
 						<div id="graph7"></div>
-						<script>
-						// This crosses a DST boundary in the UK.
+						<script> -->
+						<!-- // This crosses a DST boundary in the UK.
 						Morris.Area({
 						  element: 'graph7',
 						  data: [
@@ -560,8 +560,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						  xkey: 'x',
 						  ykeys: ['y', 'z'],
 						  labels: ['Y', 'Z']
-						});
-						</script>
+						}); -->
+						<!-- </script>
 
 					</div>
 				</div>
@@ -569,31 +569,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="agile-last-grid">
 						<div class="area-grids-heading">
 							<h3>Daily</h3>
-						</div>
-						<div id="graph8"></div>
-						<script>
-						/* data stolen from http://howmanyleft.co.uk/vehicle/jaguar_'e'_type */
-						var day_data = [
-						  {"period": "2016-10-01", "licensed": 3407, "sorned": 660},
-						  {"period": "2016-09-30", "licensed": 3351, "sorned": 629},
-						  {"period": "2016-09-29", "licensed": 3269, "sorned": 618},
-						  {"period": "2016-09-20", "licensed": 3246, "sorned": 661},
-						  {"period": "2016-09-19", "licensed": 3257, "sorned": 667},
-						  {"period": "2016-09-18", "licensed": 3248, "sorned": 627},
-						  {"period": "2016-09-17", "licensed": 3171, "sorned": 660},
-						  {"period": "2016-09-16", "licensed": 3171, "sorned": 676},
-						  {"period": "2016-09-15", "licensed": 3201, "sorned": 656},
-						  {"period": "2016-09-10", "licensed": 3215, "sorned": 622}
-						];
-						Morris.Bar({
-						  element: 'graph8',
-						  data: day_data,
-						  xkey: 'period',
-						  ykeys: ['licensed', 'sorned'],
-						  labels: ['Licensed', 'SORN'],
-						  xLabelAngle: 60
-						});
-						</script>
+						</div> -->
+						<!-- <div id="graph8"></div> -->
+						<!-- <script>
+			
 					</div>
 				</div>
 				<div class="col-md-4 agile-last-left agile-last-right">
@@ -602,35 +581,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<h3>Yearly</h3>
 						</div>
 						<div id="graph9"></div>
-						<script>
-						var day_data = [
-						  {"elapsed": "I", "value": 34},
-						  {"elapsed": "II", "value": 24},
-						  {"elapsed": "III", "value": 3},
-						  {"elapsed": "IV", "value": 12},
-						  {"elapsed": "V", "value": 13},
-						  {"elapsed": "VI", "value": 22},
-						  {"elapsed": "VII", "value": 5},
-						  {"elapsed": "VIII", "value": 26},
-						  {"elapsed": "IX", "value": 12},
-						  {"elapsed": "X", "value": 19}
-						];
-						Morris.Line({
-						  element: 'graph9',
-						  data: day_data,
-						  xkey: 'elapsed',
-						  ykeys: ['value'],
-						  labels: ['value'],
-						  parseTime: false
-						});
-						</script>
+						<script> -->
+			 			<!-- var day_data = [
+			 			  {"elapsed": "I", "value": 34},
+			 			  {"elapsed": "II", "value": 24},
+			 			  {"elapsed": "III", "value": 3},
+			 			  {"elapsed": "IV", "value": 12},
+			 			  {"elapsed": "V", "value": 13},
+			 			  {"elapsed": "VI", "value": 22},
+			 			  {"elapsed": "VII", "value": 5},
+			 			  {"elapsed": "VIII", "value": 26},
+			 			  {"elapsed": "IX", "value": 12},
+			 			  {"elapsed": "X", "value": 19}
+			 			];
+			 			Morris.Line({
+			 			  element: 'graph9',
+			 			  data: day_data,
+			 			  xkey: 'elapsed',
+			 			  ykeys: ['value'],
+			 			  labels: ['value'],
+			 			  parseTime: false
+			 			}); -->
+			 			<!-- </script>
 
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
+			 		</div>
+			 	</div>
+			 	<div class="clearfix"> </div>
+			 </div> -->
 		<!-- //tasks -->
-		<div class="agileits-w3layouts-stats">
+		<!-- <div class="agileits-w3layouts-stats">
 					<div class="col-md-4 stats-info widget">
 						<div class="stats-info-agileits">
 							<div class="stats-title">
@@ -726,13 +705,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="clearfix"> </div>
 				</div>
-</section>
+</section> -->
  <!-- footer -->
-		  <div class="footer">
+		  <!-- <div class="footer">
 			<div class="wthree-copyright">
 			  <p>© 2017 Visitors. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
 			</div>
-		  </div>
+		  </div> -->
   <!-- / footer -->
 </section>
 <!--main content end-->
