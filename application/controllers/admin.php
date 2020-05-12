@@ -1,47 +1,42 @@
 <?php
 class Admin extends MY_Controller {
 
-	public function login(){
+	// public function __construct()
+	// {
+	// 	parent::__construct();
+	// 	if( ! $this->session->userdata('id'))
+	// 		// $this->load->view('admin/login');
+	// 		return redirect('admin/index');
+
+	// }
+
+
+	public function index(){
 		$this->load->view('admin/login');	
 	}
 
-	public function login2()
+	// public function logout()
+	// {
+	// 	$this->session->userdata('id');
+	// 	return redirect('admin/index');
+	// }
+
+	public function akka()
 	{
-		$this->form_validation->set_rules('uname','username','required|alpha');
-		$this->form_validation->set_rules('pwd','password','required|max_length[12]');
-		$this->form_validation->set_error_delimiters("<div class='text-danger'>","</div>");
-
-		if($this->form_validation->run()){
-
-			$uname=$this->input->post('uname');
-			$pwd=$this->input->post('pwd');
-			$this->load->model('Admin/loginmodel');
-			$this->loginmodel->isvalidate($uname,$pwd);
-			$id=$this->loginmodel->isvalidate($uname,$pwd);
-
-			if ($id) {
-			 		$this->session->set_userdata('id',$id);
-			 		return redirect('admin/welcome');
-			 		
-			 	} 	
-			 	else{
-			 		echo "data not matched";
-			 	}
-		}
-		else{
-			$this->load->view('admin/login');
-		}
+		// $this->load->view('admin/dashboard 2');
+		$this->load->model('admin/usersmodel');
+		$b=$this->usersmodel->num_rows();
+		$q = array(
+			"vip"=>$b,);
+		// print_r($q);
+		// exit;
+		$this->load->view('admin/index',$q);
+		
 	}
 
-	public function welcome()
-	{
-		$this->load->view('admin/dashboard');
-		$this->load->model('Admin/loginmodel');
-		$articles=$this->loginmodel->articlelist();
-		$this->load->view('admin/dashboard',['articles'=>$articles]);
-	}
 
-	
+
 }
+
 
 ?>

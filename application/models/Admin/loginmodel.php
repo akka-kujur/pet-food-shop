@@ -3,6 +3,7 @@
 class loginmodel extends CI_Model	
 {
 	
+	
 	public function isvalidate($username,$password)
 	{
 
@@ -19,15 +20,40 @@ class loginmodel extends CI_Model
 	}
 
 
-	public function articlelist()
+
+	public function articlelist($limit,$offset)
 	{
 		// $this->load->library('database');
 		$id=$this->session->userdata('id');
-		$q=$this->db->select('article_title')
+		$q=$this->db->select()
 		            ->from('articles')
-		            ->where(['id'=>$id])
+		            ->where(['user_id'=>$id])
+		            ->limit($limit,$offset)
 		            ->get();
 		            return $q->result();
+	}
+
+
+	public function num_rows()
+	{
+	$id=$this->session->userdata('id');
+		$q=$this->db->select()
+		            ->from('articles')
+		            ->where(['user_id'=>$id])
+		            ->get();
+		            return $q->num_rows();	
+	}
+
+	public function addarticle($array)
+	{
+		return $this->db->insert('articles',$array);
+	}
+
+	public function del($id)
+	{
+		return $this->db->where(['id'=>$id])
+		                ->delete('articles');	
+		                
 	}
 
 }

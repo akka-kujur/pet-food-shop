@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <head>
 <title> Admin Panel </title>
@@ -56,6 +55,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <b class="caret"></b>
             </a>
             <ul class="dropdown-menu extended logout">
+
                 <li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
                 <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
                 <li><a href="login.html"><i class="fa fa-key"></i> Log Out</a></li>
@@ -169,9 +169,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="col-md-4 market-update-right">
 						<!-- <i class="fa fa-users" ></i> -->
 					</div>
+					
 					<div class="col-md-8 market-update-left">
-					<h4>Users</h4>
-						<h3>0</h3>
+						
+					    <h4>Users</h4>
+						<h3><?php echo $vip; ?></h3>
 						<!-- <p>Other hand, we denounce</p> -->
 					</div>
 				  <div class="clearfix"> </div>

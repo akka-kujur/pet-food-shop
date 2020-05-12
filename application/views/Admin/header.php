@@ -6,6 +6,14 @@
 <link rel="stylesheet" type="text/css" href="<?= base_url("Assets/css/main.css") ?>">
 <link rel="stylesheet" type="text/css" href="<?= base_url("Assets/css/util.css") ?>">
 </head>
+
+
+
+<!-- <style>
+body {
+    background-image: <?= base_url('/assets/imges/pet.png'); ?>
+}
+</style>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">dukan</a>
@@ -18,16 +26,18 @@
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
+
+      <?php 
+      if($this->session->userdata('id')) { ?>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a href="<?= base_url('admin/logout');?>" class="btn btn-danger">Logout</a>
       </li> 
+      
+    <?php } ?>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Search">
       <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
-</nav>
+</nav> -->
